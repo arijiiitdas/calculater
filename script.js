@@ -25,10 +25,6 @@ operator.forEach((item) => {
     item.addEventListener("click", () => {
         count = 0
         operand1 = Number(display.innerHTML)
-
-
-
-
         oper = item.innerHTML
 
         display.innerHTML = ""
